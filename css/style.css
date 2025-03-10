@@ -42,10 +42,10 @@ a:hover {
 
 /* form */
 input[type="text"], input[type="date"], textarea, select {
-    width: 100%;
-    border-radius: 10px; /* sudut border */
-    padding: 5px;
-    border: 3px dashed green; /* solid, dashed, dotted */
+    width: 75%;
+    border-radius: 5px; /* sudut border */
+    padding: 2px;
+    border: 1px solid black; /* solid, dashed, dotted */
     /* margin: 20px; sisi luar border */
 }
 /* padding adalah sisi dalam, memberi jarak antara text dan border */

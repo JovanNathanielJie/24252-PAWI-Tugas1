@@ -35,10 +35,117 @@
   </nav>
 
 <body>
-    
+    <h2 class="mt-3">Lowongan Kerja</h2>
+    <p>SMK Harapan Bangsa berkomitmen untuk memberikan peluang kerja terbaik bagi 
+        lulusan yang siap memasuki dunia industri. Melalui halaman Lowongan Kerja, 
+        siswa dan alumni dapat mengakses informasi terbaru mengenai kesempatan kerja di 
+        berbagai perusahaan mitra yang bekerja sama dengan sekolah. Informasi yang 
+        tersedia mencakup posisi yang dibutuhkan, kualifikasi, lokasi kerja, 
+        serta tata cara melamar. Selain itu, kami juga menyediakan bimbingan 
+        karier untuk membantu siswa dalam mempersiapkan CV, wawancara kerja, dan 
+        keterampilan profesional lainnya. Dengan adanya halaman ini, diharapkan para 
+        lulusan dapat lebih mudah mendapatkan pekerjaan yang sesuai dengan keahlian dan 
+        jurusan yang mereka ambil selama di SMK Harapan Bangsa.</p>
+        <h2 class="mt-3">Kriteria Pekerja</h2>
+        <p>Untuk memastikan kualitas tenaga kerja yang sesuai dengan standar 
+            industri dan kebutuhan sekolah, berikut adalah kriteria utama bagi 
+            pelamar kerja di lingkungan SMK Harapan Bangsa:</p>
+        <ol type="1" class="mt-1">
+            <li class="mt-1"><b>Pendidikan & Keahlian</b></li>
+                <ul>
+                    <li>Minimal lulusan SMK/SMA, D3, atau S1 sesuai dengan bidang yang dilamar.</li>
+                    <li>Menguasai keterampilan teknis yang relevan dengan posisi yang dibutuhkan.</li>
+                    <li>Memiliki sertifikasi atau pengalaman kerja menjadi nilai tambah.</li>
+                </ul>
+            <li class="mt-1"><b>Etika & Profesionalisme</b></li>
+                <ul>
+                    <li>Disiplin, bertanggung jawab, dan memiliki etos kerja yang tinggi.</li>
+                    <li>Mampu bekerja secara individu maupun dalam tim.</li>
+                    <li>Berkomitmen untuk terus belajar dan berkembang.</li>
+                </ul>
+            <li class="mt-1"><b>Komunikasi & Interpersonal</b></li>
+                <ul>
+                    <li>Memiliki kemampuan komunikasi yang baik dan sopan.</li>
+                    <li>Mampu beradaptasi dengan lingkungan kerja dan menjalin hubungan profesional yang positif.</li>
+                </ul>
+            <li class="mt-1"><b>Komitmen & Loyalitas</b></li>
+                <ul>
+                    <li>Bersedia mengikuti peraturan dan budaya kerja di SMK Harapan Bangsa.</li>
+                    <li>Memiliki motivasi untuk berkontribusi secara maksimal dalam bidang pekerjaannya.</li>
+                </ul>
+            <li class="mt-1"><b>Kesehatan & Kesiapan Kerja</b></li>
+                <ul>
+                    <li>Sehat secara fisik dan mental untuk menjalankan tugas dengan optimal.</li>
+                    <li>Bersedia bekerja sesuai dengan jadwal dan tanggung jawab yang diberikan.</li>
+                </ul>
+        </ol>
+    <h2 class="mt-2">Pengisian Formulir</h2>
+    <form action="proses.php" method="post">
+        <b>Nama Lengkap</b> <br>
+        <input type="text" name="nama" id="nama" required class="rounded"> <br>
+        <br>
+        <b>Tanggal Lahir</b> <br>
+        <input type="date" name="tanggalLahir" id="tanggalLahir" required class="rounded"> <br>
+        <br>
+        <b>Jenis Kelamin</b> <br>
+        <input type="radio" name="jk" id="jkl" value="L" checked> Laki-laki <br>
+        <input type="radio" name="jk" id="jkp" value="P"> Perempuan <br>
+        <br>
+        <b>Tempat Lahir</b> <br>
+        <select name="tempatLahir" id="tempatLahir" required class="rounded">
+            <option value="PLB">Palembang</option>
+            <option value="JKT">Jakarta</option>
+            <option value="BDG">Bandung</option>
+            <option value="SBY">Surabaya</option>
+            <option value="DIY">Yogyakarta</option>
+            <option value="DIA">Aceh</option>
+            <option value="BEN">Bengkulu</option>
+            <option value="DLL">Lainnya</option>
+        </select> <br>
+        <br>
+        <b>Pilih Jurusan Keahlian</b> <br>
+        <select name="jurusan" id="jurusan" required class="rounded">
+            <option value="MTK">Matematika</option>
+            <option value="IND">Bahasa Indonesia</option>
+            <option value="FIS">Fisika</option>
+            <option value="KIM">Kimia</option>
+            <option value="Bio">Biologi</option>
+            <option value="SEJ">Sejarah</option>
+            <option value="GEO">Geografi</option>
+            <option value="OLH">Olahraga</option>
+            <option value="EKO">Ekonomi & Akuntansi</option>
+            <option value="MUS">Seni Musik</option>
+            <option value="RUP">Seni Rupa</option>
+            <option value="INF">Teknik Informatika</option>
+            <option value="ING">Bahasa Inggris</option>
+            <option value="TEK">Teknik Elektro</option>
+            <option value="DLL">Lainnya</option>
+        </select> <br><br>
+        <b>Pengalaman Kerja</b> <br>
+        <textarea name="pesan" id="pesan" required class="rounded"></textarea>
+        <br> <br>
+        <b>Upload Dokumen Pendukung</b> <br>
+        <ul>
+            <li>Foto diri</li>
+            <li>Scan Kartu Keluarga</li>
+            <li>Ijazah atau rapor terakhir</li>
+            <li>Bukti Pengalaman Kerja</li>
+        </ul>
+        <input type="file" name="berkas" id="berkas" required class="rounded"> <br><br>
+        <b>Kesediaan Waktu Wawancara</b> <br>
+        <input type="date" name="interview" id="interview" required class="rounded"> <br>
+        <br>
+        <b>Pesan</b> <br>
+        <textarea name="pesan" id="pesan" required class="rounded"></textarea>
+        <br> <br>
+        <button type="submit" class="rounded">Kirim</button>
+        <br>
+        <br>
+        <p class="mt-3"><b>Jika sudah selesai, silakan hubungi kontak ini:</b></p>
+        <a href="https://wa.me/081234567890" class="btn btn-primary btn-sm">Administrasi SMK Harapan Bangsa</a>
 </body>
 
-<footer class="bg-dark text-white text-center py-3">
+<footer class="bg-dark text-white text-center py-3 mt-3">
     <p>&copy; SMK Harapan Bangsa All Rights Reserved.</p>
   </footer>
 </html>
