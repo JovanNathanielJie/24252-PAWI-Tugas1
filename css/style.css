@@ -7,7 +7,7 @@ body {
     font-family: Arial;
 }
 p {
-    color: blueviolet;
+    color: #D2E9E9;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 h1, h2, h3 {
@@ -30,7 +30,7 @@ a {
     color: palevioletred;
 }
 
-/* hover saat ingin diklik, akan jadi hitam */
+/* hover saat ingin diklik, akan jadi biru */
 a:hover {
     color: blue;
     text-decoration: underline;
