@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FFF5E4;
+    font-family: Arial;
+}
+p {
+    color: blueviolet;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1, h2, h3 {
+    color: darkgreen;
+}
+/* class selector */
+.bg-warning {
+    background-color: salmon;
+}
+
+.text-success {
+    color: green;
+}
+#h5 {
+    color: blue;
+}
+
+a {
+    text-decoration: none;
+    color: palevioletred;
+}
+
+/* hover saat ingin diklik, akan jadi hitam */
+a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+/* bisa px / bisa persen untuk nilai border radius */
+.rounded {
+    border-radius: 20px;
+}
+
+/* form */
+input[type="text"], input[type="date"], textarea, select {
+    width: 100%;
+    border-radius: 10px; /* sudut border */
+    padding: 5px;
+    border: 3px dashed green; /* solid, dashed, dotted */
+    /* margin: 20px; sisi luar border */
+}
+/* padding adalah sisi dalam, memberi jarak antara text dan border */
+/* margin adalah sisi luar */
+button {
+    border-radius: 10px;
+    border: 1px solid white;
+    background-color: green;
+    color: white;
+    padding: 5px;
+    width: 100%;
+}
