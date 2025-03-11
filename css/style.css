@@ -5,6 +5,10 @@
 body {
     background-color: #FFF5E4;
     font-family: Arial;
+    width: 100%;
+    overflow-x: hidden; /* Mencegah scroll horizontal */
+    margin: 0;
+    padding: 0;
 }
 p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
