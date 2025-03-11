@@ -49,95 +49,156 @@
         <div class="row">
             <div class="col-md-4 mb-4">
                 <div class="card text-center p-3">
-                    
+                    <img src="images/Basket.webp" class="w-100">
                     <h5 class="mt-3">Basket</h5>
                     <p>Latihan teknik basket profesional dan kompetisi antar sekolah.</p>
                 </div>
             </div>
             <div class="col-md-4 mb-4">
                 <div class="card text-center p-3">
-                  
+                    <img src="images/Desain Grafis.jpg" class="w-100">
                     <h5 class="mt-3">Desain Grafis</h5>
                     <p>Belajar seni digital, ilustrasi, dan editing visual.</p>
                 </div>
             </div>
             <div class="col-md-4 mb-4">
                 <div class="card text-center p-3">
-                    <i class="fas fa-futbol icon"></i>
+                    <img src="images/Futsal.avif" class="w-100">
                     <h5 class="mt-3">Futsal</h5>
                     <p>Mengasah skill futsal dan mengikuti turnamen bergengsi.</p>
                 </div>
             </div>
             <div class="col-md-4 mb-4">
                 <div class="card text-center p-3">
-                    <i class="fas fa-music icon"></i>
+                  <img src="images/Hadroh.jpg" class="w-100">
                     <h5 class="mt-3">Hadroh</h5>
                     <p>Mendalami musik Islami dan seni rebana.</p>
                 </div>
             </div>
             <div class="col-md-4 mb-4">
                 <div class="card text-center p-3">
-                    <i class="fas fa-newspaper icon"></i>
+                  <img src="images/Jurnalistik.webp" class="w-100">
                     <h5 class="mt-3">Jurnalistik</h5>
                     <p>Menulis berita, wawancara, dan fotografi jurnalistik.</p>
                 </div>
             </div>
             <div class="col-md-4 mb-4">
                 <div class="card text-center p-3">
-                    <i class="fas fa-microphone icon"></i>
+                  <img src="images/Paduan Suara.jpg" class="w-100">
                     <h5 class="mt-3">Paduan Suara</h5>
                     <p>Latihan vokal dan tampil di berbagai acara sekolah.</p>
                 </div>
             </div>
             <div class="col-md-4 mb-4">
                 <div class="card text-center p-3">
-                    <i class="fas fa-flag icon"></i>
+                  <img src="images/Paskib.jpg" class="w-100">
                     <h5 class="mt-3">Paskibra</h5>
                     <p>Pembinaan karakter melalui disiplin baris-berbaris.</p>
                 </div>
             </div>
             <div class="col-md-4 mb-4">
                 <div class="card text-center p-3">
-                    <i class="fas fa-user-ninja icon"></i>
+                  <img src="images/Silat.jpeg" class="w-100">
                     <h5 class="mt-3">Silat</h5>
                     <p>Melatih bela diri dan ketahanan fisik.</p>
                 </div>
             </div>
             <div class="col-md-4 mb-4">
                 <div class="card text-center p-3">
-                    <i class="fas fa-hand-rock icon"></i>
+                    <img src="images/Taekwondo.jpg" w-100>
                     <h5 class="mt-3">Taekwondo</h5>
                     <p>Latihan bela diri dengan teknik tendangan cepat.</p>
                 </div>
             </div>
             <div class="col-md-4 mb-4">
                 <div class="card text-center p-3">
-                    <i class="fas fa-users icon"></i>
+                  <img src="images/Saman'.png" class="w-100">
                     <h5 class="mt-3">Tari Saman</h5>
                     <p>Mempelajari seni tari khas budaya Indonesia.</p>
                 </div>
             </div>
             <div class="col-md-4 mb-4">
                 <div class="card text-center p-3">
-                    <i class="fas fa-volleyball-ball icon"></i>
+                  <img src="images/voli.jpg" class="w-100">
                     <h5 class="mt-3">Voli</h5>
                     <p>Melatih kerja sama tim dalam olahraga bola voli.</p>
                 </div>
             </div>
             <div class="col-md-4 mb-4">
                 <div class="card text-center p-3">
-                    <i class="fas fa-laptop-code icon"></i>
+                  <img src="images/it club.jpeg" class="w-100">
                     <h5 class="mt-3">IT Club</h5>
                     <p>Mempelajari pemrograman, jaringan, dan teknologi terbaru.</p>
                 </div>
             </div>
         </div>
     </div>
+    <br>
+    <h2 class="text-center mb-4">Pengisian Formulir Pendaftaran</h2>
+    <form action="proses.php" class="contact-form" method="post">
+        <b>Nama Lengkap</b> <br>
+        <input type="text" name="nama" class="form-control" id="nama" required class="rounded"> <br>
+        <b>NPM</b> <br>
+        <input type="text" name="NPM" class="form-control" id="nama" required class="rounded"> <br>
+        <b>Tanggal Lahir</b> <br>
+        <input type="date" name="tanggalLahir" id="tanggalLahir" required class="rounded"> <br><br>
+        <b>Jenis Kelamin</b> <br>
+        <input type="radio" name="jk" id="jkl" value="L" checked> Laki-laki <br>
+        <input type="radio" name="jk" id="jkp" value="P"> Perempuan <br>
+        <br>
+        <b>Tempat Lahir</b> <br>
+        <select name="tempatLahir" id="tempatLahir" required class="rounded">
+            <option value="PLB">Palembang</option>
+            <option value="JKT">Jakarta</option>
+            <option value="BDG">Bandung</option>
+            <option value="SBY">Surabaya</option>
+            <option value="DIY">Yogyakarta</option>
+            <option value="DIA">Aceh</option>
+            <option value="BEN">Bengkulu</option>
+            <option value="DLL">Lainnya</option>
+        </select> <br>
+        <br>
+        <b>Pilih Jurusan</b> <br>
+        <select name="jurusan" id="jurusan" required class="rounded">
+            <option value="AK">Akuntansi dan Keuangan Lembaga</option>
+            <option value="FAR">Farmasi Klinis dan Komunitas</option>
+            <option value="LAB">Teknologi Laboratorium Medik</option>
+            <option value="TKJ">Teknik Jaringan Komputer & Telekomunikasi</option>
+            <option value="RPL">Rekayasa Perangkat Lunak</option>
+            <option value="TKR">Teknik Kendaraan Ringan</option>
+            <option value="TBSM">Teknik & Bisnis Sepeda Motor</option>
+        </select> <br><br>
+        <b>Pilih Ekstrakurikuler</b> <br>
+        <select name="ekskul" id="ekskul" required class="rounded">
+            <option value="BAS">Basket</option>
+            <option value="DES">Desain Grafis</option>
+            <option value="FUT">Futsal</option>
+            <option value="HAD">Hadroh</option>
+            <option value="JRN">Jurnalistik</option>
+            <option value="PDN">Paduan Suara</option>
+            <option value="PSKB">Paskibra</option>
+            <option value="SLT">Silat</option>
+            <option value="TKW">Taekwondo</option>
+            <option value="SAM">Tari Saman</option>
+            <option value="VOL">Voli</option>
+            <option value="ITC">IT Club</option>
+        </select> <br><br>
+        <b>Upload Dokumen Pendukung</b> <br>
+        <ul>
+            <li>Persetujuan Orang Tua/Wali</li>
+        </ul>
+        <input type="file" name="berkas" id="berkas" required class="rounded"> <br><br>
+        <b>Alasan Mengikuti</b> <br>
+        <textarea name="pesan" id="pesan" required class="rounded"></textarea>
+        <br> <br>
+        <button type="submit" class="rounded">Kirim</button>
+        <br>
+        <br>
+        <p class="mt-3"><b>Jika sudah selesai, silakan hubungi kontak ini:</b></p>
+        <a href="https://wa.me/081317466661" class="btn btn-primary btn-sm">Administrasi SMK Harapan Bangsa</a>
 
-    <footer class="bg-dark text-white text-center py-3 mt-4">
-        <p>&copy; 2025 SMK Harapan Bangsa - All Rights Reserved.</p>
-    </footer>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+        <footer class="bg-dark text-white text-center py-3 mt-3">
+          <p>&copy; SMK Harapan Bangsa All Rights Reserved.</p>
+      </footer>
 </body>
 </html>
